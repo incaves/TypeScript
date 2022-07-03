@@ -8,7 +8,7 @@ enum dir { up, left,right,Down }
 function changeDirection(din: dir) {
     console.log(din);
 }
-// 只能是枚举种定义的
+// 只能是枚举中定义的
 // 传入方式类似于对象 . 调用枚举的成员
 changeDirection(dir.Down)
 changeDirection(dir.left)

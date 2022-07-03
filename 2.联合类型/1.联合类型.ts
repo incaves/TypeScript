@@ -11,7 +11,7 @@ console.log(arr1)
 // let arr2: (number | boolean)[] = [1, 2, 3, 'abc']
 // 只能出现一个值
 // let arr3: number | string[] = 1
-// let arr3: number | string[] = 1,3 error
+// let arr3: number | string[] = 1,3  error
 
 // 表示是一个数组 只能是string类型
 let arr3: number | string[] = ['1', '2', '3']
